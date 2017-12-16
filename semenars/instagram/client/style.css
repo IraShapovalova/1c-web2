@@ -1,0 +1,22 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+.focus {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.focus-holber {
+    width: 50%;
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.focus-holber > *{
+margin: 5px;
+}
